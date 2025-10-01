@@ -1,0 +1,344 @@
+
+
+.container {display: flex; flex-wrap:wrap; justify-content: space-between;}
+.container-fluid .collapse.navbar-collapse {float: right; padding-left: 400px; auto; display: inline;
+     padding-top: 10px;}
+.container-fluid .collapse.navbar-collapse .nav-join {margin-left: 20px; background-color: rgb(83, 214, 214);}
+.container-fluid .collapse.navbar-collapse .nav-join .nav-link {padding-left: 40px; 
+    padding-right: 40px; color: white;}
+
+.carousel-item .active{color: white; font-weight:bolder; font-size: 90px; text-align: left;}
+
+/* contbawah */
+.container .courses {padding: auto; margin-left: 50px; margin-right: 20px; 
+    margin-top: 20px; margin-bottom: 20px; width: 1000px; height: 400 px; 
+    background-color: light rgb(70, 55, 55); padding-bottom: 10px;}
+.courses .kotak1 {width: 250px; height: 200px; background-color: rgb(106, 179, 203); 
+    transition: 2s; float: left; margin-bottom: 10px; overflow: hidden;}
+.courses .kotak1:hover {background-color: rgb(13, 72, 92); animation-delay:0.1s; 
+    height: 250px; transform: scale(1.1,1.1);}
+.courses .kotak1 .image img {width: 70px; height: 70px; margin-left: 60px; margin-top: 10px; margin-bottom: 10px;}
+.courses .kotak1 .skilled {margin-bottom: 10px; overflow: hidden;}
+.courses .kotak1 .skilled h1 {color: black; font-size: 20px; text-align: center;}
+.courses .kotak1 .skilled h1:hover {color: white;}
+.courses .kotak1 .skilled p {color: lightgray; font-size: 15px; text-align: center; margin-left: 10px; margin-right: 10px; padding-bottom: 10px;}
+
+.courses .kotak2 {width: 250px; height: 200px; background-color: rgb(106, 179, 203); transition: 2s; margin-left: 80px;}
+.courses .kotak2:hover {background-color: rgb(13, 72, 92); animation-delay:0.1s; height: 250px; transform: scale(1.1,1.1);}
+.courses .kotak2 image {height: 100px; width: 100px;}
+.courses .kotak2 .image img {width: 70px; height: 70px; margin-left: 60px; margin-top: 10px; margin-bottom: 10px;}
+.courses .kotak2 .skilled h1 {color: black; font-size: 20px; text-align: center;}
+.courses .kotak2 .skilled h1:hover {color: white;}
+.courses .kotak2 .skilled p {color: lightgray; font-size: 15px; text-align: center; margin-left: 10px; margin-right: 10px;}
+
+.courses .kotak3 {width: 250px; height: 200px; background-color: rgb(106, 179, 203); transition: 2s; margin-left: 80px; margin-right: 30px; overflow: hidden;}
+.courses .kotak3:hover {background-color: rgb(13, 72, 92); animation-delay:0.1s; height: 250px; transform: scale(1.1,1.1);}
+.courses .kotak3 .image img {width: 70px; height: 70px; margin-left: 60px; margin-top: 10px; margin-bottom: 10px;}
+.courses .kotak3 .skilled h1 {color: black; font-size: 20px; text-align: center;}
+.courses .kotak3 .skilled h1:hover {color: white;}
+.courses .kotak3 .skilled p {color: lightgray; font-size: 15px; text-align: center; margin-left: 10px; margin-right: 10px;}
+
+.courses .kotak4 {width: 250px; height: 200px; background-color: rgb(106, 179, 203); transition: 2s; margin-left: 50px;}
+.courses .kotak4:hover {background-color: rgb(13, 72, 92); animation-delay:0.1s; height: 250px; transform: scale(1.1,1.1);}
+.courses .kotak4 .image img {width: 70px; height: 70px; margin-left: 60px; margin-top: 10px; margin-bottom: 10px;}
+.courses .kotak4 .skilled h1 {color: black; font-size: 20px; text-align: center;}
+.courses .kotak4 .skilled h1:hover {color: white;}
+.courses .kotak4 .skilled p {color: lightgray; font-size: 15px; text-align: center; margin-left: 10px; margin-right: 10px;}
+
+
+.aboutme {display: flex; width: 1100px; height: 350px; background-color: aliceblue; margin-left: 10px;}
+.aboutme .kiri img {width: 400px; height: 300px; padding-left: 30px; padding-top: 30px; transition: 2s;}
+.aboutme .kanan {padding-left: 10px;}
+.aboutme .kanan .title {color:rgb(106, 179, 203); font-size: 15px; float: right; font-family: Arial, Helvetica, sans-serif; text-align: left; padding-top: 30px; width: 700px;}
+.aboutme .kanan .title h1 {font-size: 15px; color:#06BBCC; text-align: left;}
+.aboutme .kanan .title p {font-size: 15px; margin-bottom: 0px;}
+
+.categories {width: 100%; height: 900px; margin-left: 10px;}
+.categories .header h1 {color:rgb(3, 12, 28); text-align: center;}
+.categories .header p {margin-top: 10px; color: darkblue; text-align: center;}
+
+
+.categories .kiri {width: 600px; height: 500px; float: left;}
+.categories .kiri .atas {height: 300px; width: 600px;  position: relative; overflow: hidden;}
+.categories .kiri .bawah {display: flex; overflow: hidden;}
+.categories .kiri .bawah .satu {display: flex;}
+.categories .kiri .bawah .dua {display: flex;}
+.categories .kiri .bawah .satu .text-block {position: absolute; width: 200px; height: 100px; bottom: 2px; right: 20px; background-color: black; color: white; padding-left: 20px; padding-right: 10px;}
+.text-block {position: absolute; width: 200px; height: 100px; left: 415px; bottom: 4px; right: 0px; background-color: black; color: white; padding-left: 20px; padding-right: 10px; background: rgba(0, 0, 0, 0.5);}
+
+.categories .kanan {width: 500px; height: 500px; float: right;}
+
+.container1 {
+    position: relative;
+    margin: 0 auto; 
+    width: 300px;
+    float: left;
+    margin-top: 20px; overflow: hidden;
+  }
+
+  .container1-kanan{
+    position: relative;
+    margin: 0 auto; 
+    width: 500px;
+    float: left;
+    margin-top: 20px; overflow: hidden;
+    padding-left: ;
+  }
+  
+  .container img:hover { transform: scale(1.1); transition: 0.5s; opacity: 1;}
+  .container1 .content {
+    position: absolute; 
+    bottom: 2px; 
+    left: 130px;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 150px; 
+    height: 80px;
+    padding: 10px; 
+  }
+
+  .container1-kanan .content {
+    position: absolute; 
+    bottom: 2px; 
+    left: 130px;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 150px; 
+    height: 80px;
+    padding: 10px; 
+  }
+
+.categories .container1-kanan .container1 {
+    width: 150px; height: 500px; float: right; margin-right: 240px;
+}
+
+.pcourses {
+    width: 1100px; height: 650px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.pcourses p {
+    text-align: center;
+}
+
+.pcourses .satu {
+    width: 1100px;
+    float: left;
+
+}
+
+.pcourses .dua {
+    width: 1000px;
+    float: right;
+}
+
+.card-text p {padding-left: 10px;}
+
+.instructors {
+    width: 1000px;
+    height: 600px;
+}
+
+.carousel-control-prev-icon:hover {background-color: aqua;}
+.visually-hidden:hover {background-color: aqua;}
+.button .active:hover {background-color: aqua;}
+
+.button .active .Slide1:hover {background-color: aqua;}
+
+.carousel-controls:hover {background-color: aqua;}
+
+.orang {display: flex; width: 1000px; height: 500px; padding-left: 40px;}
+.orang .satu {width: 250px; height: 450px; background-color: rgb(233, 244, 248);}
+.orang .dua {width: 250px; height: 450px; background-color: rgb(233, 244, 248); margin-left: 10px;}
+.orang .tiga {width: 250px; height: 450px; background-color: rgb(233, 244, 248); margin-left: 10px;}
+.orang .empat {width: 250px; height: 450px; background-color: rgb(233, 244, 248); margin-left: 10px;}
+
+.testimonial {width: 1000px; height: 600px; padding-left: 50px; padding-top: 20px;}
+.testimonial .up {width: 1000px; height: 150px;}
+.testimonial .down {width: 1000px; height: 300px; display: flex;}
+.testimonial .satu {width: 300px; height: 400px; float: left; margin-right: 50px;}
+.testimonial .satu .atas {width: 300px; height: 200px;}
+.testimonial .satu .bawah {width: 300px; height: 120px; background-color: rgb(233, 244, 248); padding: 18px; color: black; font-size: 15px; text-align: center;}
+.testimonial .satu .bawah:hover {background-color: rgb(111, 236, 255);}
+
+.testimonial .dua {width: 300px; height: 400px; margin-right: 50px;}
+.testimonial .dua .atas {width: 300px; height: 200px;}
+.testimonial .dua .bawah {width: 300px; height: 120px; background-color: rgb(233, 244, 248); padding: 18px; color: black; font-size: 15px; text-align: center;}
+.testimonial .dua .bawah:hover {background-color: rgb(111, 236, 255);}
+
+
+
+.testimonial .tiga {width: 300px; height: 400px; margin-right: 50px;}
+.testimonial .tiga .atas {width: 300px; height: 200px;}
+.testimonial .tiga .bawah {width: 300px; height: 120px; background-color: rgb(233, 244, 248); padding: 18px; color: black; font-size: 15px; text-align: center;}
+.testimonial .tiga .bawah:hover {background-color: rgb(111, 236, 255);}
+
+.bi-chevron-left::before {
+    content: "\f284"
+}
+
+.footer {width: 100%; height: 350px; background-color: rgb(1, 1, 55); margin-top: 2000px; padding-left: 70px; padding-right: 70px; display: flex; border-bottom: solid 1px lightgray;}
+.footer .one {width: 1000px; height: 500px; display: flex;}
+.footer .atas. {width: 1000px; height: 200px;}
+.footer .atas .quicklink {width: 250px; height: 350px; padding-top: 60px; float: left;}
+.footer .atas .quicklink h1 {color: white; text-align: left; font-size: 25px; padding-bottom: 10px;}
+.footer .atas .quicklink p {color: white; text-align: left; font-size: 15px;}
+
+.footer .atas .contact {width: 250px; height: 350px; padding-top: 60px; padding-left: 280px;}
+.footer .atas .contact h1 {color: white; text-align: left; font-size: 25px; padding-bottom: 10px; width: 250px;}
+.footer .atas .contact p {color: white; text-align: left; font-size: 17px; width: 250px;}
+.contact .logo {width: 250px; display: flex;}
+
+.footer .bawah .newsletter {width: 250px; height: 100px; padding-top: 55px; padding-left: 300px;}
+.footer .bawah .newsletter h1 {color: white; text-align: left; font-size: 25px; padding-bottom: 5px;}
+.footer .bawah .newsletter p {color: white; text-align: left; font-size: 17px; width: 300px; padding-right: 65px;}
+
+.footer .bawah {height: 300px;}
+.footer .bawah .gallery {width: 250px; height: 300px; padding-top: 55px; padding-left: 300px;}
+.footer .bawah .gallery .atas {padding-bottom: 0px;}
+.footer .bawah .gallery h1 {color: white; text-align: left; font-size: 25px;}
+.footer .bawah .gallery .bawah img {border: solid 5px white;}
+.footer .bawah .gallery img {border: solid 5px white; margin-top: 15px;}
+
+
+.footer .bawah {width: 100%; border-top: solid lightgray 0.5px; display: flex;}
+
+.footer .two {width: 1000px; height: 200px; padding-top: 500px; left: 0px;} 
+
+.container-fluid .bg-dark .text-light .footer .pt-5 .mt-5 .wow .fadeIn {bottom: 0px;}
+
+.input {margin-right: auto;
+    margin-left: auto; position: relative}
+
+.input .form {padding-left: 1.5rem !important;
+}
+.p {
+    padding-right: 3rem !important;
+}
+.py{
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.w {
+    width: 100% !important;
+}
+.border {
+    border: 0 !important;
+}
+.form-cont {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+
+.signup {padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+    margin-left: 20px;
+}
+
+.mt {
+    margin-top: .5rem !important;
+}
+.end {
+    left: 20 !important;
+}
+.top {
+    top: 0 !important;
+}
+.position {
+    position: absolute !important;
+}
+.btn-primary {
+    color: #000;
+    background-color: #06BBCC;
+    border-color: #06BBCC;
+}
+.btn {
+    right: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: aqua;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+
+.two {width: 100%; background-color: rgb(1, 1, 55); height: 150px; display: flex;}
+.end {width: 500px; height: 150px; float: left; left: 0px; background-color: rgb(1, 1, 55); padding-top: 20px;}
+.end p {color: white; font-size: 15px; padding-left: 50px;}
+.right {width: 500px; height: 150px; float: right; margin-left: 480px; padding-top: 20px;}
+.right p {color: white; font-size: 15px;}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+.image-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px; /* Adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.notfound {width: 100%; height: 500px; background-color: white;}
+.notfound .foto {width: 100%; height: 250px; left: 15%;}
+.notfound .foto .image img {width: 200px; height: 200px; position: middle;}
+
+.notfound .text {width: 100%; height: 300px; position: middle; text-align: center;}
+.notfound .text h1 {font-size: 90px; color: black; padding-bottom: 20px;}
+.notfound .text h2 {padding-bottom: 20px;}
+.notfound .text p {margin-bottom: 0px;}
+
+
+.education {width: 1000px; height: 300px; margin: 50px;}
+.education .left {width: 450px; height: 300px;float: left; display: inline; margin-left: 80px; box-shadow: 1px 0px 1px 1px;}
+.education .left .image {width: 200px; float: left; height: 300px; overflow: hidden;}
+.education .left .image img {width: 400px; height: 400px;}
+.education .left .text {width: 250px; float: right; height:300 px;}
+.education .left .text h1 {color: rgb(107, 235, 205); font-size: 20px; text-align: left; margin-left: 20px; margin-top: 10px; font-family: 'Times New Roman', Times, serif;}
+.education .left .text small {margin-left: 20px; color: lightgrey;}
+.education .left .text p {margin-left: 20px; padding-top: 10px; padding-right: 10px;}
+
+.education .right {width: 300x; height: 300px; float: right;  display: inline; margin-left: 0px; width: 450px; padding-top: 0px; box-shadow: 1px 0px 1px 1px;}
+.education .right .image {width: 200px; float: left; height: 300px; overflow: hidden;}
+.education .right .image img {width: 400px; height: 400px;}
+.education .right .text {width: 250px; float: right; height:300 px;}
+.education .right .text h1 {color: rgb(107, 235, 205); font-size: 20px; text-align: left; margin-left: 20px; margin-top: 10px; font-family: 'Times New Roman', Times, serif;}
+.education .right .text small {margin-left: 20px; color: lightgrey;}
+.education .right .text p {margin-left: 20px; padding-top: 10px; color: black;}
+
+.pricing {width: 1000px; height: 500px; margin-top: 200px;}
+.pricing .heading {width: 50px; height: 100px; padding-top: 200px;}
+.pricing .heading h1 {padding-top: 180px; text-align: center; width: 1000px; color: lightseagreen; font-family: 'Times New Roman', Times, serif; margin-left: 55px;}
+.pricing .text {width: 300px; height: 200px;}
+.pricing .text p {padding-top: 250px; width: 450px; text-align: center; color: black; margin-left: 320px;}
+
+
+.contact1 {width: 100%; height: 800px; background-color: rgb(74, 74, 199);align-items: flex-start;}
+.contact1 .left {width: 600px; height: 200px; float: left;}
+.contact1 .left .heading {margin-left: 50px; margin-top: 50px;}
+.contact1 .left .heading h1 {color: white; font-size: 30px;}
+.contact1 .left .heading p {color: white;}
+.contact1 .kanan {width: 300px; height: 200px; float: right; padding-top: 20px; margin-right: 20px;}
+.contact1 .kanan img {float: right;}
+
+.mb-3 {margin-left: 50px;}
